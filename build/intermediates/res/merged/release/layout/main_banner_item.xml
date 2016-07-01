@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/rl_banner_item"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/corners"
+>
+    <ImageView
+        android:id="@+id/iv_banner"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/loading_prompt"
+        android:layout_margin="5dp"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:id="@+id/tv_banner_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_below="@+id/iv_banner"
+        android:text="載入中..."
+        android:textColor="@color/common_bg"
+        android:textSize="16sp"
+        android:layout_marginBottom="5dp"
+        />
+</RelativeLayout>
