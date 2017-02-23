@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RockLibrary</string>
+
+    <string name="permission_message">You must argee below permission.%1$s</string>
+
+    <string name="permission_desc_storage">Write/read SD Card</string>
+    <string name="permission_desc_storage_create">Create/delete file in SDCard</string>
+    <string name="permission_desc_wifi">Get location</string>
 </resources>

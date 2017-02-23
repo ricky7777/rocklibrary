@@ -23,4 +23,7 @@ public class RockConsts {
 
     public final static int MSG_LOAD_WEBVIEW = 1002;
     public final static int MSG_SHOW_YOUTUBE = 1007;
+
+    public final static String PKEY_FB_RANK_STATE = "isFBRank";
+    public final static String PKEY_VIEW_TIME = "viewTime";
 }

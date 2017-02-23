@@ -10,7 +10,7 @@ import java.io.Writer;
  * 印log的utils
  */
 public class LogUtils {
-    private static boolean DEBUG = true;
+    private static boolean DEBUG = false;
 
     public static void d(Object tag, String msg, Object... objects) {
         if (DEBUG) {

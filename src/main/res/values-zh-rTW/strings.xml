@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RockLibrary</string>
+
+    <string name="permission_message">您需要同意下列權限 \n助手才能正常運作\n%1$s</string>
+
+    <string name="permission_desc_storage">讀寫SD Card</string>
+    <string name="permission_desc_storage_create">SDCard中創建與刪除文件權限</string>
+    <string name="permission_desc_wifi">取得大約的定位</string>
+</resources>
