@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RockLibrary</string>
+    <!--<string name="app_name">RockLibrary</string>-->
 
     <string name="permission_message">You must argee below permission.%1$s</string>
 

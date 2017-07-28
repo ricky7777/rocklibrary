@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/ricky/studio_project/TestWebp/rocklibrary/src/main/shaders"/></dataSet><dataSet config="release"><source path="/Users/ricky/studio_project/TestWebp/rocklibrary/src/release/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\ricky\AndroidStudioProjects\FindRoad\rocklibrary\src\main\shaders"/></dataSet><dataSet config="release"><source path="C:\Users\ricky\AndroidStudioProjects\FindRoad\rocklibrary\src\release\shaders"/></dataSet></merger>

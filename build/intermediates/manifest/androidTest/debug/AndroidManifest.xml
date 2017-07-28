@@ -4,7 +4,7 @@
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="23" />
+        android:targetSdkVersion="24" />
 
     <instrumentation
         android:name="android.test.InstrumentationTestRunner"
@@ -15,8 +15,9 @@
 
     <application
         android:allowBackup="true"
-        android:label="@string/app_name"
-        android:supportsRtl="true" >
+        android:supportsRtl="true"
+        android:versionCode="1"
+        android:versionName="0.0.1" >
         <uses-library android:name="android.test.runner" />
     </application>
 

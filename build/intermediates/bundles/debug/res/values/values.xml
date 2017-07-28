@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RockLibrary</string>
+    <color name="common_bg">#25223d</color>
+    <color name="white">#ffffffff</color>
+    <string name="permission_desc_storage">Write/read SD Card</string>
+    <string name="permission_desc_storage_create">Create/delete file in SDCard</string>
+    <string name="permission_desc_wifi">Get location</string>
+    <string name="permission_message">You must argee below permission.%1$s</string>
 </resources>

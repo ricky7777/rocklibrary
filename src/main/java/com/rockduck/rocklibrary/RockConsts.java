@@ -26,4 +26,7 @@ public class RockConsts {
 
     public final static String PKEY_FB_RANK_STATE = "isFBRank";
     public final static String PKEY_VIEW_TIME = "viewTime";
+
+    public final static String URL_GOOGLEPLAY = "https://play.google.com/store/apps/details?id=";
+    public final static String URL_GOOGLEPLAY_MARKET = "market://details?id=";
 }

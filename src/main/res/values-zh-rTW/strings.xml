@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RockLibrary</string>
+    <!-- <string name="app_name">RockLibrary</string>-->
 
     <string name="permission_message">您需要同意下列權限 \n助手才能正常運作\n%1$s</string>
 

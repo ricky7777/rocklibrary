@@ -103,9 +103,9 @@ public class PreferenceUtil {
 
     public static int getInt(String key) {
         if (sharedPref == null) {
-            return 0;
+            return -1;
         } else {
-            return sharedPref.getInt(key, 0);
+            return sharedPref.getInt(key, -1);
         }
     }
 

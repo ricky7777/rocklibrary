@@ -1,14 +1,26 @@
 [
     {
-        "merged": "/Users/ricky/studio_project/TestWebp/rocklibrary/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/ricky/studio_project/TestWebp/rocklibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "/Users/Ricky/Documents/workspace_android/FindRoad/C:\\Users\\ricky\\AndroidStudioProjects\\FindRoad\\rocklibrary\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "/Users/Ricky/Documents/workspace_android/FindRoad/C:\\Users\\ricky\\.android\\build-cache\\0e79061830707a234c66a05ac3d7a3f4a727ca6f\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/ricky/studio_project/TestWebp/rocklibrary/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/ricky/studio_project/TestWebp/rocklibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "merged": "/Users/Ricky/Documents/workspace_android/FindRoad/rocklibrary/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/Ricky/.android/build-cache/f51cc28cb96918af882741e3083d65937e25bb04/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "/Users/ricky/studio_project/TestWebp/rocklibrary/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/ricky/studio_project/TestWebp/rocklibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-v21/abc_edit_text_material.xml"
+        "merged": "/Users/Ricky/Documents/workspace_android/FindRoad/rocklibrary/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/Ricky/.android/build-cache/f51cc28cb96918af882741e3083d65937e25bb04/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/Ricky/Documents/workspace_android/FindRoad/C:\\Users\\ricky\\AndroidStudioProjects\\FindRoad\\rocklibrary\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "/Users/Ricky/Documents/workspace_android/FindRoad/C:\\Users\\ricky\\.android\\build-cache\\0e79061830707a234c66a05ac3d7a3f4a727ca6f\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/Ricky/Documents/workspace_android/FindRoad/C:\\Users\\ricky\\AndroidStudioProjects\\FindRoad\\rocklibrary\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "/Users/Ricky/Documents/workspace_android/FindRoad/C:\\Users\\ricky\\.android\\build-cache\\0e79061830707a234c66a05ac3d7a3f4a727ca6f\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/Ricky/Documents/workspace_android/FindRoad/rocklibrary/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/Ricky/.android/build-cache/f51cc28cb96918af882741e3083d65937e25bb04/output/res/drawable-v21/abc_btn_colored_material.xml"
     }
 ]

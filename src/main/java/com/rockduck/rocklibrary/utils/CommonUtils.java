@@ -1,9 +1,16 @@
 package com.rockduck.rocklibrary.utils;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.os.Environment;
 
 import java.io.File;
+
+import static com.rockduck.rocklibrary.RockConsts.URL_GOOGLEPLAY;
+import static com.rockduck.rocklibrary.RockConsts.URL_GOOGLEPLAY_MARKET;
 
 /**
  * Created by ricky on 2016/06/06.<br/>
@@ -56,16 +63,8 @@ public class CommonUtils {
      * @return
      */
     public static int name2ResId(String drawableName) {
-        if(res == null){
-            return 0;
-        }
-
-        try {
-            int resID = res.getIdentifier(drawableName, PREFIX_DRAWABLE, packageName);
-            return resID;
-        }catch (Exception ex){
-            return 0;
-        }
+        int resID = res.getIdentifier(drawableName, PREFIX_DRAWABLE, packageName);
+        return resID;
     }
 
     /**
@@ -150,6 +149,31 @@ public class CommonUtils {
         this.uriImg = String.format("file:///mnt/sdcard/%1$s/%2$s/", folderName, folderNameImg);
         this.pathSDFolderIcon = String.format("%1$s/%2$s/%3$s/", Environment.getExternalStorageDirectory(), folderName, folderNameIcon);
         this.pathSDFolderImg = String.format("%1$s/%2$s/%3$s/", Environment.getExternalStorageDirectory(), folderName, folderNameImg);
+    }
+
+    public static void rateGooglePlay(Activity activity){
+        String packageName = activity.getPackageName();
+        try {
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(URL_GOOGLEPLAY_MARKET + packageName));
+            activity.startActivity(intent);
+        } catch (android.content.ActivityNotFoundException anfe) {
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(URL_GOOGLEPLAY + packageName));
+            activity.startActivity(intent);
+        }
+    }
+
+    public static void goFbFanPage(Activity activity, String fanPageId, String fanURL){
+        Intent intent = null;
+        try {
+            PackageManager packageManager = activity.getPackageManager();
+            packageManager.getPackageInfo("com.facebook.katana", 0);
+            String fanPage = String.format("fb://page/%1$s", fanPageId);
+            intent = new Intent(Intent.ACTION_VIEW, Uri.parse(fanPage));
+        } catch (Exception e) {
+            intent = new Intent(Intent.ACTION_VIEW, Uri.parse(fanURL));
+        }
+        activity.startActivity(intent);;
+
     }
 
 }
